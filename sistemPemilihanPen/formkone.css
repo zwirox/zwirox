@@ -1,0 +1,57 @@
+
+  form {
+    max-height: min-content;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #24deff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+
+  input[type="text"],
+  textarea {
+    max-width: 70%;
+    min-width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+
+  select {
+    min-width: 40%;
+    max-width: 70%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: none;
+    appearance: none;
+  }
+
+  input[type="submit"] {
+    background-color: #0077ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #00c3ff83;
+  }

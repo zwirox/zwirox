@@ -1,0 +1,119 @@
+body{
+    background-color: #ffffff;
+  }
+button.toggle {
+background-color: blue;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+.middlepane {
+width: 100%;
+height: 100vh;
+background-color: #fff;
+border: 1px solid black;
+}
+
+button.toggle.red {
+background-color: red;
+}
+
+button.toggle.green {
+background-color: green;
+}
+
+button.toggle.yellow {
+background-color: yellow;
+}
+
+button.toggle.blue {
+background-color: blue;
+}
+
+.middlepane.red {
+background-color: red;
+}
+
+.middlepane.green {
+background-color: green;
+}
+
+.middlepane.yellow {
+background-color: yellow;
+}
+
+.middlepane.blue {
+background-color: blue;
+}
+
+  .container {
+  width: 100%;
+  height: 100vh;
+}
+.toppane {
+  width: 100%;
+  height: 250px;
+  background-color: #ffffff;
+  border:1px solid black
+}
+.toppane img {
+height: 100%;
+width: 100%;
+}
+/* Style for the login form inside the right column */
+.login-box {
+margin-top: 50px;
+margin-left:35%;
+background-color: #fff;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+border-radius: 5px;
+max-width: 400px;
+width: 100%;
+box-sizing: border-box;
+}
+
+h2 {
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+width: 100%;
+box-sizing: border-box;
+margin-bottom: 20px;
+font-size: 16px;
+}
+
+input[type="checkbox"] {
+margin-right: 10px;
+}
+
+.check {
+font-size: 14px;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+background-color: #3e8e41;
+}
